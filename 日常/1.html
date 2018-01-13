@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #parent-div {
+            position: relative;
+            font: bold 200% sans-serif;
+        }
+        #forward, #back {
+            position: absolute;
+            margin:0px; /* no margin around the elements */
+            top: 0px; /* distance from top */
+            left: 0px; /* distance from left */
+        }
+        #forward {
+            color: blue;
+        }
+        #back {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="parent-div">
+    <p id="forward">/</p>
+    <p id="back">\</p>
+</div>
+</body>
+</html>
